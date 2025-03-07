@@ -45,7 +45,7 @@ const ProtectedRoute = ({ element }) => {
     setAuth(true);
   } else {
     document.cookie = "site=dev; path=/; domain=sandbox.e-consystems.com";
-    window.location.href = "https://www.sandbox.e-consystems.com/Account/Login"; // Redirect to auth app if no token
+    window.location.href = "https://www.sandbox.e-consystems.com/auth/Account/Login"; // Redirect to auth app if no token
   }
     };
     checkAuth();
