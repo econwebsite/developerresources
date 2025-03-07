@@ -1,0 +1,324 @@
+.developer-resources {
+    background-color: #003873;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.banner-container {
+  position: relative;
+  width: 100%;
+  height: 450px; 
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  overflow: hidden; 
+  background: #000000;
+
+}
+
+.banner-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('../../assets/devbanner3.jpg') center/cover no-repeat;
+  opacity: 70%; 
+}
+
+.two-column-layout {
+  position: absolute;
+  top: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  right: 7%;
+  transform: translateY(-50%); 
+  padding: 20px;
+ background: white;
+ border-radius: 16px;
+ box-shadow: 0 4px 30px rgba(153, 152, 152, 0.1);
+ backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(174, 222, 169, 0.3);  max-width: 360px;
+  width: 100%;
+  border-radius: 10px;
+  min-height: 400px;
+  z-index: 10; 
+}
+
+
+.Addsobutton{
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.9em;
+  padding: 8px 18px;
+  background-color: #1976d2;
+}
+.dev-resourec-user{
+    border: 1px solid #ccc;
+    padding: 2em;
+    width: 92%;
+    color: #003873;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color:white; 
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    border: 4px solid rgb(109, 165, 229);
+}
+.dev-notetot{
+  margin-top: 10px;
+}
+.dev-note{
+  width: 100%;
+  background-color: #ddd;
+  padding: 12px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 0.8em;
+
+}
+
+
+
+.file-icon{
+    margin-right: .5em;
+    
+}
+.dev-resourec-user p{
+    color: #003873;
+ font-size: 1.2em;
+}
+  
+.dialog-icon-button {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}
+  .Developerreso-sec{
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+.tabs-section {
+    border: 1px solid #ccc;
+    padding: 1em;
+    width: 94%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color:white; 
+}
+.tabs-section1 {
+    border: 1px solid #ccc;
+    margin-top: 1em;
+    padding: 1em;
+    width: 94%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color:white; 
+} 
+.tab-content {
+    margin-top: 1em;
+}
+.devtabsupport-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .devtabsupport-card {
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 220px; 
+  }
+  .devtabsupport-container a{
+    text-decoration: none;
+  }
+  .devtabsupport-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .devtabsupport-icon {
+    margin-bottom: 10px;
+  }
+  
+  .devtabsupport-chat-icon {
+    color: #007bff;
+  }
+  
+  .devtabsupport-mail-icon {
+    color: #f5990f;
+  }
+  
+  .devtabsupport-ticket-icon {
+    color: #28a745;
+  }
+  
+  .devtabsupport-tech-icon {
+    color: #6f42c1;
+  }
+  
+  .devtabsupport-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #344ea1;
+    margin-bottom: 8px;
+  }
+  
+  .devtabsupport-description {
+    color: #003873;
+    font-size: 14px;
+    text-align: center;
+    min-height: 40px; 
+  }
+  
+  .devtabsupport-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    transition: background 0.3s;
+  }
+  
+  .devtabsupport-chat-button {
+    background: #007bff;
+  }
+  
+  .devtabsupport-chat-button:hover {
+    background: #0056b3;
+  }
+  
+  .devtabsupport-mail-button {
+    background: #f3b456;
+  }
+  
+  .devtabsupport-mail-button:hover {
+    background: #d39135;
+  }
+  
+  .devtabsupport-ticket-button {
+    background: #28a745;
+  }
+  
+  .devtabsupport-ticket-button:hover {
+    background: #1e7e34;
+  }
+  
+  .devtabsupport-tech-button {
+    background: #a286d5;
+  }
+  
+  .devtabsupport-tech-button:hover {
+    background: #9074c5;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1024px) {
+    .devtabsupport-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .devtabsupport-container {
+      grid-template-columns: repeat(1, 1fr); 
+    }
+  }
+  
+  
+@media (max-width: 1024px) {
+    .two-column-layout {
+        flex-direction: column; 
+        align-items: center;
+    }
+    .left-column,
+    .right-column {
+        width: 100%;
+        max-width: 100%;
+        margin: 0.8em 0;
+        padding: 1em;
+        border: 1px solid #ccc; 
+    }
+    .right-column {
+        align-items: center;
+    }
+}
+  
+@media (max-width: 768px) {
+    .developer-resources {
+        padding: 0.8em;
+    }
+    .tabs-section {
+        padding: 0.8em;
+        border: 1px solid #ccc;
+    }
+    .two-column-layout {
+        gap: 0.8em;
+    }
+    .left-column,
+    .right-column {
+        padding: 0.8em;
+        border: 1px solid #ccc; 
+    }
+    .right-column button {
+        font-size: 0.9em;
+    }
+}
+  
+@media (max-width: 480px) {
+    .developer-resources {
+        padding: 1em;
+    }
+    .two-column-layout {
+        gap: 0.5em;
+    }
+    .left-column,
+    .right-column {
+        width: 100%; 
+        margin: 0.4em 0;
+        padding: 0.5em;
+        border: 1px solid #ccc; 
+        box-sizing: border-box;
+    }
+    .tab-content,
+    .left-column-placeholder {
+        font-size: 0.875em;
+    }
+    .right-column button {
+        font-size: 0.875em;
+        padding: 0.4em;
+    }
+    .tabs-section {
+        padding: 0.5em;
+        border: 1px solid #ccc;
+        margin-top: 1em;
+        width: 100%;
+    }
+    
+}

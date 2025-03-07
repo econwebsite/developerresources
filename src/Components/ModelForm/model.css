@@ -1,0 +1,160 @@
+/* .newanimation{
+  border: none;
+}
+.form-title {
+  color: #344ea1;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.form-title span{
+  color: #344ea1;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 500;
+}
+.custom-placeholder::placeholder {
+  color: #003873 !important;
+}
+
+
+
+.ant-select .ant-select-selector .ant-select-selection-placeholder {
+    color: #003873; 
+}
+
+.ant-select-item-option-content {
+    color: #003873; 
+}
+
+.ant-select-selector .ant-select-selection-item {
+    color: #003873; 
+}
+.custom-modal .ant-modal-title {
+  color: #003873; 
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+.submit-btn {
+  background-color: #344ea1;
+  color: white;
+  font-size: 14px;
+  padding: 8px 25px;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #002f6c;
+}
+
+ */
+
+
+
+
+
+
+
+
+ .Getquote-form-modal {
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.Getquote-form-title {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: #003873;
+}
+
+.Getquote-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.Getquote-form-item {
+  width: 100%;
+}
+
+.Getquote-form-select {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.Getquote-form-textarea {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.Getquote-form-submit {
+  background-color: #1890ff;
+  color: #fff;
+  border-radius: 5px;
+  height: 40px;
+  font-size: 16px;
+}
+
+.Getquote-form-submit:hover {
+  background-color: #002653;
+}
+
+ /* ContactForm.css */
+
+.ContactForm-modal {
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.ContactForm-title {
+  font-size: 24px;
+  font-weight: 400px;
+  color: #003873;
+  text-align: center;
+}
+
+.ContactForm-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.ContactForm-input {
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+}
+.custom-placeholder::placeholder {
+  color: #003873 !important;
+}
+
+
+
+.ant-select .ant-select-selector .ant-select-selection-placeholder {
+    color: #003873; 
+}
+
+.ant-select-item-option-content {
+    color: #003873; 
+}
+
+.ant-select-selector .ant-select-selection-item {
+    color: #003873; 
+}
+.ContactForm-button {
+  background-color: #1890ff;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.ContactForm-button:hover {
+  background-color: #40a9ff;
+}

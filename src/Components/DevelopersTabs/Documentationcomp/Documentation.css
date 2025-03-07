@@ -1,0 +1,70 @@
+.Documentation-container {
+  width: 100%;
+  padding: 18px;
+  max-height: 400px;
+  overflow-y: scroll;
+  margin-bottom: 20px;
+}
+
+.Documentation-section {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.Documentation-heading {
+  text-align: left;
+  color: #003873;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.Documentation-list {
+  padding-left: 15px;
+  list-style: none;
+  counter-reset: list-counter;
+}
+
+.Documentation-list li {
+  margin-bottom: 6px;
+  counter-increment: list-counter;
+  position: relative;
+  padding-left: 25px;
+}
+
+.Documentation-list li::before {
+  content: counter(list-counter) ".";
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+  color: #003873;
+}
+
+.Documentation-subsection {
+  display: flex;
+  align-items: center;
+  gap: 6px; 
+  font-size: 16px;
+  color: #003873;
+  border: none;
+  background: none;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 5px 0;
+  transition: color 0.2s ease-in-out;
+}
+
+.Documentation-subsection:hover {
+  color: #1677ff;
+}
+
+
+@media (max-width: 768px) {
+  .Documentation-heading {
+    font-size: 16px;
+  }
+
+  .Documentation-subsection {
+    font-size: 14px;
+  }
+}

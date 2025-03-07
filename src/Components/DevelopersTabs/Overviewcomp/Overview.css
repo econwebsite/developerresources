@@ -1,0 +1,41 @@
+.Overview-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    max-height: 400px;
+    overflow-y: auto; 
+  }
+  
+  .Overview-title {
+    font-size: 24px; 
+    font-weight: bold;
+    margin: 0 0 10px 0; 
+    color: #003873;
+  }
+  
+  .Overview-paragraph {
+    font-size: 1em; 
+    line-height: 1.6; 
+    margin-top: 10px;
+    color: #344ea1; 
+    text-align: justify;
+  }
+  
+.Overview-Btn{
+  display: flex;
+  align-items: center;
+  background: #69ba3f;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.Overview-Btn:hover {
+  background: #00aeef !important;
+  color: white !important;
+  transform: scale(1.05);
+}
